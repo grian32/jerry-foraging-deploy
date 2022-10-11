@@ -1,19 +1,34 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <title>Jerry Box Foraging Calculator</title>
-    <meta charset="utf-8">
-    <meta name="description"
-        content="Calculates the amount of Jerry Boxes/coins needed for the specified foraging levels" />
-    <meta name="author" content="Tryobyte_" />
+    <head>
+        <title>Jerry Box Foraging Calculator</title>
+        <meta charset="utf-8">
+        <meta name="description" content="Calculates the amount of Jerry Boxes/coins needed for the specified foraging levels"/>
+        <meta name="author" content="Tryobyte_"/>
 
-    <!-- Open Graph / Facebook tags-->
-    <meta name="og:title" content="Jerry Box Foraging Calculator" />
-    <meta name="og:description"
-        content="Calculates the amount of Jerry Boxes/coins needed for the specified foraging levels" />
-</head>
+        <!-- Open Graph / Facebook tags-->
+        <meta name="og:title" content="Jerry Box Foraging Calculator"/>
+        <meta name="og:description" content="Calculates the amount of Jerry Boxes/coins needed for the specified foraging levels"/>
+        <script defer src="index.js"></script>
+    
+    </head>
 
-<body>
-    hi
-</body>
+
+    <body>
+        <label for="currentlvl">Your current Foraging Level</label>
+        <input type="text" id="currentlvl">
+        <br>
+        <label for="endlvl">The Foraging Level you want to reach</label>
+        <input type="text" id="endlvl">
+        <br>
+        <br>
+        <button onsubmit="calculate()">Calculate</button>
+        <br>
+        <br>
+        <br>
+        <p>Green Jerry Boxes: N/A</p>
+        <p>Blue Jerry Boxes: N/A</p>
+        <p>Purple Jerry Boxes: N/A</p>
+        <p>Golden Jerry Boxes: N/A</p>
+    </body>
 </html>
