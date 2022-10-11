@@ -22,6 +22,8 @@ for (let i of arrs) {
 }
 
 console.log(levels)
-
-
 })()
+
+async function calculate() {
+    console.log("hi")
+}
