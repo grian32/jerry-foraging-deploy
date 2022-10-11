@@ -1,3 +1,4 @@
+(async () => {
 let foragingXpPerBox = {
     "green": 330.5,
     "blue": 661,
@@ -7,7 +8,10 @@ let foragingXpPerBox = {
 
 let levels = { 0: 0 }
 
-let str = await (await fetch("/levels.txt")).text()
+let res = await fetch("/levels.txt")
+
+let str = await res.text()
 
 console.log(levels)
 console.log(str.split("\n").map(() => split("	")))
+})
