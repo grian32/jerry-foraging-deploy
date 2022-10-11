@@ -56,7 +56,7 @@ let str =`1	50	50
 47	3,100,000	44,072,425
 48	3,400,000	47,472,425
 49	3,700,000	51,172,425
-50	4,000,000	55,172,425`.split("\n").map(() => split("	"))
+50	4,000,000	55,172,425`
 
 console.log(levels)
-console.log(str)
+console.log(str.split("\n").map(() => split("	")))
