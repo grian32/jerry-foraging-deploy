@@ -14,4 +14,4 @@ let str = await res.text()
 
 console.log(levels)
 console.log(str.split("\n").map(() => split("	")))
-})
+})()
