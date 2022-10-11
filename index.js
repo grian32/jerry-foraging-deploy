@@ -8,7 +8,7 @@ let foragingXpPerBox = {
 let levels = { "0": 0 }
 
 async function calculate() {
-    let res = await fetch("levels.txt")
+    let res = await fetch("./levels.txt")
 
     let str = await res.text()
 
