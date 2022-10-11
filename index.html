@@ -9,8 +9,9 @@
         <!-- Open Graph / Facebook tags-->
         <meta name="og:title" content="Jerry Box Foraging Calculator"/>
         <meta name="og:description" content="Calculates the amount of Jerry Boxes/coins needed for the specified foraging levels"/>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/numeral.js/2.0.6/numeral.min.js"></script>
         <script defer src="index.js"></script>
-    
+        <link href="index.css" rel="stylesheet">
     </head>
 
 
@@ -25,10 +26,11 @@
         <input type="button" onclick="calculate()" value="Calculate"/>
         <br>
         <br>
+        <p id="xpneeded">XP Needed: N/A</p>
         <br>
-        <p>Green Jerry Boxes: N/A</p>
-        <p>Blue Jerry Boxes: N/A</p>
-        <p>Purple Jerry Boxes: N/A</p>
-        <p>Golden Jerry Boxes: N/A</p>
+        <p id="greenb">Green Jerry Boxes: N/A</p>
+        <p id="blueb">Blue Jerry Boxes: N/A</p>
+        <p id="purpleb">Purple Jerry Boxes: N/A</p>
+        <p id="goldb">Golden Jerry Boxes: N/A</p>
     </body>
 </html>
